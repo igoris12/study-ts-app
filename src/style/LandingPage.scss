@@ -1,0 +1,14 @@
+.landingPage {
+  background-color: rgb(98, 89, 89);
+  .logo {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    img {
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+    }
+  }
+}
