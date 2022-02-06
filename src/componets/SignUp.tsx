@@ -6,7 +6,6 @@ import { Link } from 'react-router-dom';
 
 const createCccount = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault()
-    
     const inputs = document.querySelectorAll('input')
     let data: User = {name: '', username: '', email: ''}
  for (let i = 0; i < inputs.length; i++) {
@@ -20,7 +19,7 @@ const createCccount = (e: React.FormEvent<HTMLFormElement>) => {
         
     })
 
-   
+   window.location.href ='/homepage'
     
 }
 
